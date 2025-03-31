@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Добро пожаловать на наш сайт!</h1>
+    <p>Для регистрации перейдите по ссылке: <a href="{{ url_for('register') }}">Регистрация</a></p>
+</body>
+</html>
